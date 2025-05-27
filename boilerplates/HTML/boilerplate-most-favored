@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="De ultieme HTML boilerplate: snel, modern, toegankelijk en stijlvol.">
+    <title>Moderne UI Boilerplate</title>
+
+    <!-- ✅ Standaard CSS -->
+    <style>
+        /* 🔹 Reset & Basisstijl */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* 🎨 Licht & Donker Thema */
+        :root {
+            --bg-color: #f4f4f4;
+            --text-color: #333;
+            --accent-color: #007bff;
+            --card-bg: #ffffff;
+            --border-color: #ddd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --text-color: #e0e0e0;
+                --accent-color: #1e90ff;
+                --card-bg: #1e1e1e;
+                --border-color: #333;
+            }
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+        }
+
+        /* 📌 Details Styling */
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        details {
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        details[open] {
+            background: rgba(0, 123, 255, 0.1);
+        }
+
+        summary {
+            font-size: 1.1em;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 5px 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease-in-out;
+        }
+
+        summary::before {
+            content: "▶";
+            transition: transform 0.2s ease-in-out;
+            margin-right: 8px;
+        }
+
+        details[open] summary::before {
+            content: "▼";
+        }
+
+        summary:hover {
+            color: var(--accent-color);
+        }
+
+        /* ✅ Responsieve lijsten */
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+    </style>
+
+    <!-- ✅ Google Fonts voor modern lettertype -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Moderne UI Boilerplate</h1>
+
+    <div class="container">
+        <details>
+            <summary>Kanto Starters</summary>
+            <ul>
+                <li>Bulbasaur</li>
+                <li>Charmander</li>
+                <li>Squirtle</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Technologieën</summary>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React, Vue, Svelte</li>
+                <li>Node.js & Express</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Projecten</summary>
+            <ul>
+                <li>⚡ API Design met GraphQL</li>
+                <li>⚡ Frontend Performance Tweaks</li>
+                <li>⚡ Database Optimalisatie</li>
+            </ul>
+        </details>
+    </div>
+
+</body>
+</html>

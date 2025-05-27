@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Criminal - The Future UI</title>
+    <style>
+        /* 🔥 Global Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        /* 🌌 Cyberpunk Dark Theme */
+        body {
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+            border-bottom: 2px solid #00ffcc;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* 🔷 Futuristic Container */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 255, 204, 0.1);
+            border: 2px solid #00ffcc;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #00ffcc;
+        }
+
+        /* 📌 Futuristic Details Styling */
+        details {
+            background: rgba(0, 255, 204, 0.15);
+            border: 1px solid #00ffcc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            text-align: left;
+        }
+
+        details[open] {
+            background: rgba(0, 255, 204, 0.3);
+            box-shadow: 0 0 10px #00ffcc;
+        }
+
+        summary {
+            font-size: 1.2em;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px 0;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #00ffcc;
+            transition: all 0.2s ease-in-out;
+        }
+
+        summary::before {
+            content: "▶";
+            transition: transform 0.3s ease-in-out;
+            color: #00ffcc;
+            text-shadow: 0 0 10px #00ffcc;
+        }
+
+        details[open] summary::before {
+            content: "▼";
+            transform: rotate(90deg);
+        }
+
+        /* 🌟 Glow Effect */
+        summary:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff;
+        }
+
+        /* 🔹 List styling */
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+            list-style: none;
+        }
+
+        li {
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 3px solid #00ffcc;
+            transition: all 0.2s ease-in-out;
+        }
+
+        li:hover {
+            border-left: 3px solid #ff00ff;
+            color: #ff00ff;
+        }
+
+    </style>
+    <!-- 🚀 Futuristisch Lettertype -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Code Criminal UI</h1>
+
+    <div class="container">
+        <details>
+            <summary>Kanto Starters</summary>
+            <ul>
+                <li>Bulbasaur</li>
+                <li>Charmander</li>
+                <li>Squirtle</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Technologieën</summary>
+            <ul>
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React, Vue, Svelte</li>
+                <li>Node.js & Express</li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>Projecten</summary>
+            <ul>
+                <li>⚡ API Design met GraphQL</li>
+                <li>⚡ Frontend Performance Tweaks</li>
+                <li>⚡ Database Optimalisatie</li>
+            </ul>
+        </details>
+    </div>
+
+</body>
+</html>

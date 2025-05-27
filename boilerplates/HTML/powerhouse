@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="De ultieme HTML5 boilerplate voor complexe projecten.">
+  <meta name="author" content="Your Name">
+  <meta name="keywords" content="HTML, boilerplate, modern, professional, project">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (voor sociale media previews) -->
+  <meta property="og:title" content="Powerhouse Boilerplate">
+  <meta property="og:description" content="Een uitgebreide HTML-boilerplate voor complexe projecten.">
+  <meta property="og:image" content="og-image.png">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:type" content="website">
+
+  <!-- Titel -->
+  <title>Powerhouse Boilerplate</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- JavaScript met defer -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="script.js" defer></script>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Welcome to the Powerhouse Boilerplate!</h1>
+      <p>Maximize your project's potential with this advanced template.</p>
+    </section>
+    <section id="about">
+      <h2>About</h2>
+      <p>Designed for developers who demand performance and flexibility.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name. Built with ❤️ and expertise.</p>
+  </footer>
+</body>
+</html>

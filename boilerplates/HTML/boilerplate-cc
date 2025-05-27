@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>boilerplate cc</title>
+        <style>
+            body {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 18px;
+                line-height: 1.6;
+                color: #333;
+                background-color: #f9f9f9;
+                margin: 40px;
+                padding: 20px;
+                text-align: left;
+                max-width: 800px;
+            }
+            h1, h2 {
+                font-family: "Georgia", serif;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+
+    </body>
+</html>

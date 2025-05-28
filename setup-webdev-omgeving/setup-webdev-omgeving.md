@@ -1,4 +1,6 @@
-# Checklist Setup Webdev
+
+
+
 
 > **Let op:**\
 > Op deze (REA-)computer zijn **XAMPP** en **Git** al geïnstalleerd.\

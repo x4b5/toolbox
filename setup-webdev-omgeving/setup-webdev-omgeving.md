@@ -116,9 +116,9 @@ Als je samenwerkt met anderen, zoals opleidingscoaches, kun je hen toegang geven
 - Kies **Collaborators and teams** in het menu aan de zijkant.
 - Klik op **Add people**.
 - Voeg de GitHub-accounts van de docenten toe.
-- De GitHub-accounts vind je in het Dashboard van CodeCrashers: klik op de knop `Team` en klik dan op het GitHub-icoontje boven de naam van de opleidingscoach.  
+- De GitHub-accounts vind je in het Dashboard van CodeCrashers: klik op de knop `Team` en klik dan op het GitHub-icoontje boven de naam van de opleidingscoach.  v
 - Kies `Read`-rechten.
-- Klik op **Add** en bevestig.
+- Klik op **Add** en bevestig. v
 
 ---
 

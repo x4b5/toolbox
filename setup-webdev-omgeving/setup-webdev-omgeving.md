@@ -1,14 +1,17 @@
 # SETUP WEBDEV-OMGEVING
 
 > **Let op:**\
-> Op deze (REA-)computer zijn **XAMPP** en **Git** al geïnstalleerd.\
+> Op deze (REA-)computer zijn **XAMPP**, **Git** en **VS Code** al geïnstalleerd.\
 > Gebruik de installatie-instructies hieronder alleen als je dit op een andere computer wilt toepassen.
 
 ---
 
 ## 1. XAMPP installeren
+<img src="https://cdn2.iconfinder.com/data/icons/pack1-baco-flurry-icons-style/512/XAMPP.png" width="100" >
 
-Met XAMPP kun je websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Hierdoor kun je snel, veilig en zelfstandig werken aan een project. De letters van de naam XAMPP betekenen het volgende:  
+Met XAMPP kun je websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Hierdoor kun je snel, veilig en zelfstandig werken aan een project. 
+
+De letters van de naam XAMPP betekenen het volgende:  
 X = werkt op verschillende besturingssystemen  
 A = Apache (lokale webserver)  
 M = MySQL (database)  
@@ -53,6 +56,7 @@ Er bestaan ook andere manieren om een projectmap te koppelen met XAMPP, zoals vi
 ---
 
 ## 4. Git installeren
+<img src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-512.png" width="100">
 
 Git is een versiebeheersysteem waarmee je wijzigingen in projectbestanden kunt beheren, veilig kunt experimenteren, en kunt terugkeren naar een vorige versie.
 
@@ -63,6 +67,7 @@ Git is een versiebeheersysteem waarmee je wijzigingen in projectbestanden kunt b
 ---
 
 ## 5. GitHub-account aanmaken
+|<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png" width="100">
 
 GitHub biedt de mogelijkheid om je code online te bewaren, te delen met anderen, en samen te werken aan projecten.  
 Daarvoor gebruik je een **repository**: een projectmap waarin je bestanden én hun volledige versiegeschiedenis worden bijgehouden. Je kunt zo’n repository online aanmaken en synchroniseren tussen je **lokale projectmap en GitHub**.
@@ -72,6 +77,7 @@ Daarvoor gebruik je een **repository**: een projectmap waarin je bestanden én h
 ---
 
 ## 6. GitHub Desktop installeren
+<img src= "https://cdn1.iconfinder.com/data/icons/social-circle-2-1/72/GitHub-512.png" width="100">
 
 GitHub Desktop biedt de mogelijkheid om repositories te beheren via een grafische interface, zonder dat je de command line hoeft te gebruiken.  
 Dit maakt het makkelijker om bewerkingen uit te voeren, vooral als je visueel wilt werken.
@@ -81,7 +87,26 @@ Dit maakt het makkelijker om bewerkingen uit te voeren, vooral als je visueel wi
 
 ---
 
-## 7. Repository clonen
+---
+
+## 7. Visual Studio Code installeren
+<img src="https://cdn.iconscout.com/icon/free/png-512/visual-studio-code-1868944-1583105.png" width="100">
+
+**Visual Studio Code (VS Code)** is een populaire en lichtgewicht code-editor van Microsoft, ideaal voor webontwikkeling.  
+Het ondersteunt HTML, CSS, JavaScript, PHP, Git-integratie en nog veel meer via extensies.
+
+**Installeren:**
+- Op deze computer is VS Code al geïnstalleerd. 
+- Op andere computer installeren?: Download [VS Code](https://code.visualstudio.com/) en installeer.
+- Voeg eventueel de GitHub- of Live Server-extensie toe via de Extensions-markt (icoon links).
+
+**Projectmap openen:**
+- Start VS Code.
+- Kies **File > Open Folder...** en selecteer je projectmap (bijv. `H:\mijn-project`).
+
+---
+
+## 9. Repository clonen
 
 Een repository (repo) clonen maakt het mogelijk om (de laatste versie van) een bestaand project lokaal te gebruiken.
 
@@ -95,7 +120,7 @@ Clonen van de CodeCrashers-repo:
 
 ---
 
-## 8. Repository aanmaken via GitHub Desktop
+## 10. Repository aanmaken via GitHub Desktop
 
 - Open GitHub Desktop.
 - Kies **File > New repository**.
@@ -107,7 +132,7 @@ Clonen van de CodeCrashers-repo:
 
 ---
 
-## 9. Opleidingscoaches (Collaborators) toegang geven tot repo
+## 11. Opleidingscoaches (Collaborators) toegang geven tot repo
 
 Als je samenwerkt met anderen, zoals opleidingscoaches, kun je hen toegang geven tot je repository.
 
@@ -122,13 +147,25 @@ Als je samenwerkt met anderen, zoals opleidingscoaches, kun je hen toegang geven
 
 ---
 
-## 10. Repository committen en pushen via GitHub Desktop of VS Code
+## 12. Repository-acties via GitHub Desktop of VS Code
+
+Wanneer je aan je project werkt, pas je regelmatig bestanden aan. Om die wijzigingen op te slaan en bij te houden gebruik je een aantal acties.
+
+- **Committen**: je slaat je wijzigingen lokaal op in de versiegeschiedenis van je project. Je geeft bij elke commit een korte omschrijving (de *commit message*), zodat je later kunt terugzien wat je hebt aangepast en waarom.
+
+- **Pushen**: je stuurt je commits van je computer naar GitHub. Zo worden je aanpassingen online opgeslagen en eventueel gedeeld met je team.
+
+- **Pullen**: je haalt de laatste versie van het project van GitHub naar je eigen computer. Zo voorkom je dat je werkt met een verouderde versie.
+
+Deze acties zorgen ervoor dat je veilig en gestructureerd kunt werken aan je project — je raakt niets kwijt, je kunt altijd terug in de tijd, en samenwerken wordt overzichtelijk en betrouwbaar.
+
 
 **Via GitHub Desktop:**
 - Open de repository.
 - Voeg een *commit message* toe (bijv. "Start project" of "Styling aangepast").
 - Klik op **Commit to main**.
 - Klik daarna op **Push origin** om te synchroniseren met GitHub.
+
 
 **Via VS Code (indien Git is gekoppeld):**
 - Ga naar het broncodebeheer-icoon links (met het tak-icoontje).

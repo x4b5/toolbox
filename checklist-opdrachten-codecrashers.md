@@ -1,29 +1,3 @@
-/*
-🧠 Project Planning Overview
-
-🔧 What am I building?
-[Describe the goal or feature here]
-
-🧩 Key components:
-[List the main parts or modules here]
-
-📐 Input / Output:
-[Define expected input(s) and output(s)]
-
-🛠️ Logic / Functions needed:
-[Outline the steps or functions to build]
-
-🧪 Testing plan:
-[How will you test each part?]
-
-💥 Possible pitfalls:
-[List potential errors or tricky parts]
-
-🧼 Code clarity:
-[Notes on naming, structure, readability]
-*/
-
-
 /* 📋 CHECKLIST OPDRACHTEN CODECRASHERS
 
 1. DOEL

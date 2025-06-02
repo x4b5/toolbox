@@ -134,6 +134,7 @@ Als je samenwerkt met anderen, zoals opleidingscoaches, kun je hen toegang geven
 - Ga naar het broncodebeheer-icoon links (met het tak-icoontje).
 - Schrijf een commit message en klik op het vinkje (✓).
 - Klik op **Synchronize Changes** of gebruik de Git-extensieknoppen.
+- De melding 'There are no staged changes' betekent dat er geen wijzigingen zijn geselecteerd om te committen. 
 
 ---
 

@@ -1,30 +1,35 @@
 # SETUP WEBDEV-OMGEVING
 
 > **Let op:**\
-> Op deze (REA-)computer zijn **XAMPP**, **Git** en **VS Code** al geïnstalleerd.\
+> Op deze REA-computer zijn **XAMPP**, **Git** en **VS Code** al geïnstalleerd.\
 > Gebruik de installatie-instructies hieronder alleen als je dit op een andere computer wilt toepassen.
 
 ---
 
-## 1. XAMPP installeren
+## 1. XAMPP installeren en Apache opstarten
 <img src="https://cdn2.iconfinder.com/data/icons/pack1-baco-flurry-icons-style/512/XAMPP.png" width="100" >
 
-Met XAMPP kun je websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Hierdoor kun je snel, veilig en zelfstandig werken aan een project. 
+Met XAMPP kun je andere websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Apache is de module die dit mogelijk maakt. Hierdoor kun je snel, veilig en zelfstandig werken aan een project. 
 
 De letters van de naam XAMPP betekenen het volgende:  
-X = werkt op verschillende besturingssystemen  
-A = Apache (lokale webserver)  
-M = MySQL (database)  
-P = PHP (programmeertaal voor communicatie tussen server en database)  
-P = Perl (extra scripttaal maar komt niet aan bod in het leerprogramma)
+X = cross-platform: dit betekent dat XAMPP op verschillende besturingssystemen werkt.  
+A = Apache: hiermee draai je de lokale webserver.
+M = MySQL: Dit is de database. Voor nu niet relevant.  
+P = PHP: programmeertaal voor communicatie tussen server en database. Komt later aan bod. 
+P = Perl: extra scripttaal maar komt niet aan bod in het leerprogramma.
 
-- Op deze computer is XAMPP al geïnstalleerd.
+**XAMPP installeren:**
+- Op deze REA-computer is XAMPP al geïnstalleerd.
 - Op een andere computer installeren?: download [XAMPP](https://www.apachefriends.org/index.html) en installeer.
-- Open het XAMPP Control Panel en start **Apache** (en eventueel MySQL).
+
+**Apache opstarten:**
+- Open het XAMPP Control Panel en start **Apache** via Actions-knop.
 
 ---
 
 ## 2. Projectmap aanmaken op netwerkdrive
+<img src="https://cdn1.iconfinder.com/data/icons/files-server/24/Network_Drive-512.png" width="120" >
+
 
 Een projectmap op de netwerkdrive (H:-schijf) is toegankelijk vanaf meerdere computers, wordt automatisch geback-upt en is veiliger.
 
@@ -33,6 +38,7 @@ Een projectmap op de netwerkdrive (H:-schijf) is toegankelijk vanaf meerdere com
 ---
 
 ## 3. Projectmap koppelen met XAMPP
+<img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678084-folder-512.png" width="100">
 
 Als je projectmap niet op de C-schijf staat, kun je XAMPP zo instellen dat het direct vanaf die map werkt:  
 1. Stop Apache via het XAMPP Control Panel.  
@@ -107,6 +113,7 @@ Het ondersteunt HTML, CSS, JavaScript, PHP, Git-integratie en nog veel meer via 
 ---
 
 ## 9. Repository clonen
+<img src= "https://cdn1.iconfinder.com/data/icons/system-basic-vol-9/20/copy-clone-file-512.png" width="100">
 
 Een repository (repo) clonen maakt het mogelijk om (de laatste versie van) een bestaand project lokaal te gebruiken.
 
@@ -134,7 +141,7 @@ Clonen van de CodeCrashers-repo:
 
 ## 11. Opleidingscoaches (Collaborators) toegang geven tot repo
 
-Als je samenwerkt met anderen, zoals opleidingscoaches, kun je hen toegang geven tot je repository.
+Om je opdrachten na te laten kijken door de opleidingscoaches moet je hen toegang geven tot de repo.
 
 - Ga naar je repo op [github.com](https://github.com/).
 - Klik op het tabblad **Settings** (rechtsboven in de repo).
@@ -146,6 +153,7 @@ Als je samenwerkt met anderen, zoals opleidingscoaches, kun je hen toegang geven
 - Klik op **Add** en bevestig. v
 
 ---
+
 
 ## 12. Repository-acties via GitHub Desktop of VS Code
 
@@ -175,7 +183,7 @@ Deze acties zorgen ervoor dat je veilig en gestructureerd kunt werken aan je pro
 
 ---
 
-## Setup testen
+## 13. Setup testen
 
 Zo weet je zeker dat alles goed is ingesteld en voorkom je frustratie later.
 

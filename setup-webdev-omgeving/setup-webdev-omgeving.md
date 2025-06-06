@@ -1,29 +1,49 @@
-## HANDLEIDING SET-UP LOKALE WEBDEV-OMGEVING
+# HANDLEIDING SET-UP LOKALE WEBDEV-OMGEVING
 
-> **Let op:**\
-> Op deze REA-computer zijn **XAMPP**, **Git** en **VS Code** al geïnstalleerd.\
-> Gebruik de installatie-instructies hieronder alleen als je dit op een andere computer wilt toepassen.
+><br>
+> Niets zo frustrerend als je met volle energie ergens aan wilt beginnen, maar steeds vastloopt op technische hobbels. Daarom deze handleiding! In een paar duidelijke stappen zet je een webdevelopment-omgeving op en kun je snel van start met de opleiding.
+>
+>> De handleiding is vooral praktisch opgezet zodat je snel aan de slag kunt. Voor meer uitleg kun je op de links naar **[15. Meer weten](#15-meer-weten)** klikken.
+>
+>> De REA-computers draaien op het Windows-besturingssysteem. Deze handleiding is daarom specifiek voor Windows geschreven.
+>
+>> Voor het opzetten van je webdev-omgeving heb je onder andere XAMPP, Git en VS Code nodig. Deze zijn al geïnstalleerd op de REA-computer. 
+De installatie-instructies worden hieronder benoemd als je dit op je eigen computer zou willen installeren.
+>
+>> Volg je het meeloop-programma? Je hebt alleen de eerste twee stappen van de handleiding nodig. Check ook eens **[14. Tools & Tricks](#14-tools--tricks)** voor handige tips en shortcuts die je workflow makkelijker maken.
+>
+>> Vragen, feedback, ideeën om deze handleiding beter te maken en actueel te houden? Laat het weten!
+<br>
 
----
 ### INHOUD
-[1. XAMPP installeren en Apache opstarten](#1-xampp-installeren-en-apache-opstarten)
-[2. Projectmap aanmaken op netwerkdrive](#2.-projectmap-aanmaken-op-)
+##### [01. XAMPP installeren en Apache opstarten](#1-xampp-installeren-en-apache-opstarten)
+##### [02. Projectmap aanmaken](#2-projectmap-aanmaken)
+##### [03. Projectmap koppelen aan XAMPP](#3-projectmap-koppelen-aan-xampp)
+##### [04. Git installeren](#4-git-installeren)
+##### [05. GitHub-account aanmaken](#5-github-account-aanmaken)
+##### [06. GitHub Desktop installeren](#6-github-desktop-installeren)
+##### [07. Visual Studio Code installeren](#7-visual-studio-code-installeren)
+##### [08. Repository clonen](#8-repository-clonen)
+##### [09. Repository aanmaken via GitHub Desktop](#9-repository-aanmaken-via-github-desktop)
+##### [10. Opleidingscoaches toegang geven tot je repo](#10-opleidingscoaches-toegang-geven-tot-je-repo)
+##### [11. Lokale bestanden openen op localhost vanuit VS Code](#11-lokale-bestanden-openen-op-localhost-vanuit-vs-code)
+##### [12. Repository-acties via GitHub Desktop of VS Code](#12-repository-acties-via-github-desktop-of-vs-code)
+##### [13. Setup testen](#13-setup-testen)
+##### [14. Tools & Tricks](#14-tools--tricks)
+##### [15. Meer weten](#15-meer-weten)
 
 ---
 
 
 ### 1. XAMPP installeren en Apache opstarten
 
+<br>
 <img src="https://cdn2.iconfinder.com/data/icons/pack1-baco-flurry-icons-style/512/XAMPP.png" width="100" >
+<br>
+<br>
 
-Met XAMPP kun je andere websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Apache is de module die dit mogelijk maakt. Hierdoor kun je snel, veilig en zelfstandig werken aan een project.
+Met [XAMPP1](#xampp1) kun je andere websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Apache is de module die dit mogelijk maakt. Hierdoor kun je snel, veilig en zelfstandig werken aan een project.
 
-De letters van de naam XAMPP betekenen het volgende:  
-_X = cross-platform:_ dit betekent dat XAMPP op verschillende besturingssystemen werkt.  
-_A = Apache:_ hiermee draai je de lokale webserver.
-_M = MySQL:_ Dit is de database. Voor nu niet relevant.  
-_P = PHP:_ programmeertaal voor communicatie tussen server en database. Komt later aan bod.
-_P = Perl:_ extra scripttaal maar komt niet aan bod in het leerprogramma.
 
 **XAMPP installeren:**
 
@@ -34,19 +54,24 @@ _P = Perl:_ extra scripttaal maar komt niet aan bod in het leerprogramma.
 
 -   Open het XAMPP Control Panel en start **Apache** via Actions-knop.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
-### 2. Projectmap aanmaken op netwerkdrive
-
+### 2. Projectmap aanmaken
+<br>
 <img src="https://cdn1.iconfinder.com/data/icons/files-server/24/Network_Drive-512.png" width="120" >
-
+<br>
+<br>
 Een projectmap op de netwerkdrive (in dit geval de H:-schijf) maakt het mogelijk om toegang te hebben vanaf meerdere computers. Daarnaast wordt deze drive regelmatig geback-upt en is veiliger dan de lokale schijf.
 
 -   Maak op de **H:-schijf** een projectmap aan, bijvoorbeeld `H:\mijn-project`.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
-### 3. Projectmap koppelen met XAMPP
+### 3. Projectmap koppelen aan XAMPP
 
 <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678084-folder-512.png" width="100">
 
@@ -74,6 +99,8 @@ Als je projectmap niet op de C-schijf staat, kun je XAMPP zo instellen dat het d
 
 Er bestaan ook andere manieren om een projectmap te koppelen met XAMPP, zoals virtual hosts (eigen domeinnaam koppelen aan de map) en symlinks (snelkoppeling naar je projectmap), maar deze vereisen in dit geval admin-rechten.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
 ### 4. Git installeren
@@ -86,6 +113,8 @@ Git is een versiebeheersysteem waarmee je wijzigingen in projectbestanden kunt b
 -   Op een andere computer installeren?: download [Git](https://git-scm.com/) en installeer.
 -   Checken of Git is geïnstalleerd (en weten welke versie van toepassing is)?: open terminal/cmd (Windows + R → typ `cmd`) en typ `git --version`.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
 ### 5. GitHub-account aanmaken
@@ -96,6 +125,8 @@ GitHub biedt de mogelijkheid om je code online te bewaren, te delen met anderen,
 Daarvoor gebruik je een **repository**: een projectmap waarin je bestanden én hun volledige versiegeschiedenis worden bijgehouden. Je kunt zo’n repository online aanmaken en synchroniseren tussen je **lokale projectmap en GitHub**.
 
 -   Maak een account aan op [github.com](https://github.com/).
+
+[🔝 Naar boven](#inhoud)
 
 ---
 
@@ -109,7 +140,7 @@ Dit maakt het makkelijker om bewerkingen uit te voeren, vooral als je visueel wi
 -   Download en installeer [GitHub Desktop](https://desktop.github.com/).
 -   Log in met je GitHub-account.
 
----
+[🔝 Naar boven](#inhoud)
 
 ---
 
@@ -131,6 +162,8 @@ Het ondersteunt HTML, CSS, JavaScript, PHP, Git-integratie en nog veel meer via 
 -   Start VS Code.
 -   Kies **File > Open Folder...** en selecteer je projectmap (bijv. `H:\mijn-project`).
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
 ### 8. Repository clonen
@@ -148,9 +181,13 @@ Clonen van de CodeCrashers-repo:
 -   Selecteer de locatie op je H:-schijf, bijvoorbeeld `H:\mijn-project`.
 -   Klik op **Clone**.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
 ### 9. Repository aanmaken via GitHub Desktop
+
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="100">
 
 -   Open GitHub Desktop.
 -   Kies **File > New repository**.
@@ -160,9 +197,13 @@ Clonen van de CodeCrashers-repo:
 -   Klik op **Create repository**.
 -   Klik op **Publish repository** om deze te uploaden naar GitHub (privé of publiek).
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
-### 10. Opleidingscoaches (Collaborators) toegang geven tot repo
+### 10. Opleidingscoaches toegang geven tot je repo
+
+<img src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png" width="100">
 
 Om je opdrachten na te laten kijken door de opleidingscoaches moet je hen toegang geven tot de repo.
 
@@ -175,14 +216,24 @@ Om je opdrachten na te laten kijken door de opleidingscoaches moet je hen toegan
 -   Kies `Read`-rechten.
 -   Klik op **Add** en bevestig. v
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
-## 11. Installeren en openen van bestanden op localhost vanuit VS Code
+### 11. Lokale bestanden openen op localhost vanuit VS Code
+
+<img src="https://cdn-icons-png.flaticon.com/512/545/545682.png" width="100">
 
 -   Installeer Live Server
 -   Open bestand met sneltoets: `Alt+L` dan `Alt+O`
 
-## 12. Repository-acties via GitHub Desktop of VS Code
+[🔝 Naar boven](#inhoud)
+
+---
+
+### 12. Repository-acties via GitHub Desktop of VS Code
+
+<img src="https://cdn-icons-png.flaticon.com/512/32/32195.png" width="100">
 
 Wanneer je aan je project werkt, pas je regelmatig bestanden aan. Om die wijzigingen op te slaan en bij te houden gebruik je een aantal acties.
 
@@ -210,10 +261,16 @@ Deze acties zorgen ervoor dat je veilig en gestructureerd kunt werken aan je pro
 -   Klik op **Synchronize Changes** of gebruik de Git-extensieknoppen.
 -   De melding 'There are no staged changes' betekent dat er geen wijzigingen zijn geselecteerd om te committen.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
-## 13. Setup testen
+### 13. Setup testen
 
+<br>
+<img src="test.png" width="100">
+<br>
+<br>
 Zo weet je zeker dat alles goed is ingesteld en voorkom je frustratie later.
 
 -   Open een browser en ga naar `http://localhost/`.
@@ -221,9 +278,16 @@ Zo weet je zeker dat alles goed is ingesteld en voorkom je frustratie later.
 -   Commit & push via GitHub Desktop.
 -   Check of je wijziging zichtbaar is op github.com.
 
+[🔝 Naar boven](#inhoud)
+
 ---
 
-### 14. Praktische Tips
+### 14. Tools & Tricks
+
+<br>
+<img src="tool-box.png" width="100">
+<br>
+<br>
 
 **VS-Code**
 -   **Sneltoetsen**
@@ -260,6 +324,37 @@ Let op: zijn je maandelijkse limieten op, dan kun je Copilot die maand niet meer
 8. Na het inloggen is Copilot direct actief. Begin met coderen en je ziet automatisch AI-suggesties verschijnen.
 
 
-**Documentatie**
+
+**Referenties**
+Hierbij 4 belangrijke en betrouwbare bronnen voor webdevelopment:
+- [W3Schools](https://www.w3schools.com/)  
+   *Praktische uitleg, voorbeelden en tutorials voor beginners tot gevorderden.*  
+- [MDN Web Docs](https://developer.mozilla.org/)  
+    *Uitgebreide documentatie en tutorials over webtechnologieën zoals HTML, CSS, JavaScript en meer.*  
+- [Stack Overflow](https://stackoverflow.com/)  
+    *Community voor het stellen van vragen en het vinden van antwoorden over programmeren.*
+
+
+
+[🔝 Naar boven](#inhoud)
+
+---
+### 15. Meer Weten
+
+<br>
+<img src="bookworm.png" width="100">
+<br>
+<br>
+
+
+##### XAMPP
+De letters van de naam XAMPP betekenen het volgende:  
+_X = cross-platform:_ dit betekent dat XAMPP op verschillende besturingssystemen werkt.  
+_A = Apache:_ hiermee draai je de lokale webserver.
+_M = MySQL:_ Dit is de database. Voor nu niet relevant.  
+_P = PHP:_ programmeertaal voor communicatie tussen server en database. Komt later aan bod.
+_P = Perl:_ extra scripttaal maar komt niet aan bod in het leerprogramma.
+
+[🔝 Naar boven](#inhoud)
 
 

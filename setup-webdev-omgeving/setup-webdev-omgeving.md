@@ -306,22 +306,13 @@ Zo weet je zeker dat alles goed is ingesteld en voorkom je frustratie later.
 
 **AI-tools**
 
+We kunnen je uiteraard niet tegenhouden met om AI-tools in te zetten. Dat zal ook steeds een belangrijkere tool worden in webdevelopment. Maar waarom zijn we dan terughoudend? Het programma is bedoeld om webdevelopment te LEREN. Als je AI-tools gaat in zetten om snel opdracht met succes af te ronden dan wil dit nog niet zeggen dat je er iets van hebt opgestoken! Dus als je AI-tool inzet, zet deze dan zo in dat je er juist van leert! Prompt niet: Geef de juiste code 
+Prompt: Leer me hoe ik de juiste code kan genereren voor deze opdracht. 
+
 - **ChatGPT**
 
 
-- **GitHub Copilot (gratis versie)**
-Met de gratis versie van GitHub Copilot krijg je elke maand een beperkt aantal AI-code-suggesties en chatberichten in Visual Studio Code.  
-Na het installeren van de Copilot-extensie en inloggen met je GitHub-account kun je direct code-aanvullingen en hulpvragen gebruiken.  
-Let op: zijn je maandelijkse limieten op, dan kun je Copilot die maand niet meer gebruiken.
 
-- Open Visual Studio Code.
-- Klik links in de zijbalk op het **Extensions**-icoon (vierkantje).
-3. Zoek in het zoekveld bovenaan op: `GitHub Copilot`.
-4. Klik op de extensie **GitHub Copilot** van GitHub.
-5. Klik op **Install**.
-6. Na installatie verschijnt er een melding om in te loggen.
-7. Klik op **Sign in** en volg de stappen om in te loggen met je GitHub-account.
-8. Na het inloggen is Copilot direct actief. Begin met coderen en je ziet automatisch AI-suggesties verschijnen.
 
 
 
@@ -333,6 +324,8 @@ Hierbij 4 belangrijke en betrouwbare bronnen voor webdevelopment:
     *Uitgebreide documentatie en tutorials over webtechnologieën zoals HTML, CSS, JavaScript en meer.*  
 - [Stack Overflow](https://stackoverflow.com/)  
     *Community voor het stellen van vragen en het vinden van antwoorden over programmeren.*
+- [CodePen](https://codepen.io/)
+    *
 
 
 

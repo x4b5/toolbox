@@ -65,6 +65,18 @@
 -Code-formattering is het proces van het structureren en opmaken van code volgens consistente regels voor uitlijning, inspringing, nesteling en regelafstand, zodat de code leesbaar, begrijpelijk en onderhoudbaar blijft. 
 <br>
 
+**Combinators**
+Combinators bepalen hoe verschillende HTML-elementen zich tot elkaar verhouden in een CSS-selector. Ze geven aan welke elementen je selecteert op basis van hun onderlinge relatie.
+
+Voorbeelden:
+
+E F (descendant): selecteert alle F binnen E (div p = alle <p> binnen <div>)
+
+E > F (child): selecteert F die direct kind zijn van E (ul > li = directe <li> binnen <ul>)
+
+E + F (adjacent sibling): selecteert F die direct ná E komen (h2 + p)
+
+E ~ F (general sibling): selecteert F die ergens ná E als sibling staan (h2 ~ p)
 
 - CORS (Cross-Origin Resource Sharing) – Beveiligingsmechanisme om te bepalen welke domeinen toegang hebben tot API’s.
 - Commit (Git) – Een snapshot van de wijzigingen in een repository, waarmee een bepaalde staat van de code wordt vastgelegd.
@@ -98,6 +110,7 @@
 - Embedden betekent het insluiten of integreren van een extern element, zoals een video, afbeelding of code, binnen een andere omgeving, zoals een website of document.
 <br />
 -ERD- (entity-relationship model/ diagram): data-model dat een beschrijving geeft van de data- en informatiestructuur dat kan worden geimplementeerd in een database, specifiek in geval van relationele database.
+
 https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model
 <br />
 - ETL – Extract, Transform, Load; proces om data te verwerken en verplaatsen.
@@ -151,6 +164,32 @@ Mixins - programmeerconcept waarbij herbruikbare stukjes code worden gedefinieer
 
 - PDF - Portable Document Format
 - PostgreSQL – Krachtige relationele open-source database.
+
+**Pseudo-classes**
+Pseudo-classes selecteren elementen op basis van hun status of positie, zonder extra klassen toe te voegen in de HTML.
+
+Voorbeelden:
+
+`:hover` (als je muis erboven hangt)
+
+`:first-child` (eerste kind binnen een ouder)
+
+`:nth-child(2)` (het tweede kind)
+
+`:focus` (wanneer een element in focus is, bv. input veld)
+
+**Pseudo-elementen**
+Pseudo-elementen richten zich op specifieke delen van een element (niet het hele element).
+
+Voorbeelden:
+
+::before (voegt inhoud toe vóór de content van een element)
+
+::after (voegt inhoud toe ná de content van een element)
+
+::first-line (stijl de eerste regel van tekst)
+
+::first-letter (stijl de eerste letter)
 
 ### R
 

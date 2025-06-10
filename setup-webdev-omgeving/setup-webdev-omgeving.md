@@ -1,4 +1,5 @@
 # HANDLEIDING SET-UP LOKALE WEBDEV-OMGEVING
+**Versie 1 - 10 juni 2026**
 
 ><br>
 > Niets zo frustrerend als je met volle energie ergens aan wilt beginnen, maar steeds vastloopt op technische hobbels. Daarom deze handleiding! In een paar duidelijke stappen zet je een webdevelopment-omgeving op en kun je snel van start met de opleiding.
@@ -10,7 +11,7 @@
 >> Voor het opzetten van je webdev-omgeving heb je onder andere XAMPP, Git en VS Code nodig. Deze zijn al geïnstalleerd op de REA-computer. 
 De installatie-instructies worden hieronder benoemd als je dit op je eigen computer zou willen installeren.
 >
->> Volg je het meeloop-programma? Je hebt alleen de eerste twee stappen van de handleiding nodig. Check ook eens **[14. Tools & Tricks](#14-tools--tricks)** voor handige tips en shortcuts die je workflow makkelijker maken.
+>> Volg je het meeloop-programma? Je hebt alleen de eerste drie stappen van de handleiding nodig. Check ook eens **[14. Tools & Tricks](#14-tools--tricks)** voor handige tips en shortcuts die je workflow makkelijker maken.
 >
 >> Vragen, feedback, ideeën om deze handleiding beter te maken en actueel te houden? Laat het weten!
 <br>
@@ -36,13 +37,12 @@ De installatie-instructies worden hieronder benoemd als je dit op je eigen compu
 
 
 ### 1. XAMPP installeren en Apache opstarten
-
 <br>
 <img src="https://cdn2.iconfinder.com/data/icons/pack1-baco-flurry-icons-style/512/XAMPP.png" width="100" >
 <br>
 <br>
 
-Met [XAMPP1](#xampp1) kun je andere websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Apache is de module die dit mogelijk maakt. Hierdoor kun je snel, veilig en zelfstandig werken aan een project.
+Met [#XAMPP](#xampp) kun je andere websites en webapps lokaal ontwikkelen en testen, zonder dat je direct op een externe server hoeft te werken. Apache is de module die dit mogelijk maakt. Hierdoor kun je snel, veilig en zelfstandig werken aan een project.
 
 
 **XAMPP installeren:**
@@ -63,6 +63,7 @@ Met [XAMPP1](#xampp1) kun je andere websites en webapps lokaal ontwikkelen en te
 <img src="https://cdn1.iconfinder.com/data/icons/files-server/24/Network_Drive-512.png" width="120" >
 <br>
 <br>
+
 Een projectmap op de netwerkdrive (in dit geval de H:-schijf) maakt het mogelijk om toegang te hebben vanaf meerdere computers. Daarnaast wordt deze drive regelmatig geback-upt en is veiliger dan de lokale schijf.
 
 -   Maak op de **H:-schijf** een projectmap aan, bijvoorbeeld `H:\mijn-project`.
@@ -72,10 +73,12 @@ Een projectmap op de netwerkdrive (in dit geval de H:-schijf) maakt het mogelijk
 ---
 
 ### 3. Projectmap koppelen aan XAMPP
-
+<br>
 <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678084-folder-512.png" width="100">
+<br>
+<br>
 
-Als je projectmap niet op de C-schijf staat, kun je XAMPP zo instellen dat het direct vanaf die map werkt:
+Als je projectmap niet op de C-drive staat, kun je XAMPP zo instellen dat het direct vanaf die map werkt:
 
 1. Stop Apache via het XAMPP Control Panel.
 2. Open `C:\xampp\apache\conf\httpd.conf` in Kladblok.
@@ -104,8 +107,11 @@ Er bestaan ook andere manieren om een projectmap te koppelen met XAMPP, zoals vi
 ---
 
 ### 4. Git installeren
-
+<br>
 <img src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_git-512.png" width="100">
+<br>
+<br>
+
 
 Git is een versiebeheersysteem waarmee je wijzigingen in projectbestanden kunt beheren, veilig kunt experimenteren, en kunt terugkeren naar een vorige versie.
 
@@ -116,13 +122,14 @@ Git is een versiebeheersysteem waarmee je wijzigingen in projectbestanden kunt b
 [🔝 Naar boven](#inhoud)
 
 ---
-
 ### 5. GitHub-account aanmaken
-
+<br>
 |<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-512.png" width="100">
+<br>
+<br>
 
 GitHub biedt de mogelijkheid om je code online te bewaren, te delen met anderen, en samen te werken aan projecten.  
-Daarvoor gebruik je een **repository**: een projectmap waarin je bestanden én hun volledige versiegeschiedenis worden bijgehouden. Je kunt zo’n repository online aanmaken en synchroniseren tussen je **lokale projectmap en GitHub**.
+Daarvoor gebruik je een **repository** (repo): een projectmap waarin je bestanden én hun volledige versiegeschiedenis worden bijgehouden. Je kunt zo’n repo online aanmaken en synchroniseren tussen je **lokale projectmap en GitHub**.
 
 -   Maak een account aan op [github.com](https://github.com/).
 
@@ -131,10 +138,12 @@ Daarvoor gebruik je een **repository**: een projectmap waarin je bestanden én h
 ---
 
 ### 6. GitHub Desktop installeren
-
+<br>
 <img src= "https://cdn1.iconfinder.com/data/icons/social-circle-2-1/72/GitHub-512.png" width="100">
+<br>
+<br>
 
-GitHub Desktop biedt de mogelijkheid om repositories te beheren via een grafische interface, zonder dat je de command line hoeft te gebruiken.  
+GitHub Desktop biedt de mogelijkheid om repo's te beheren via een grafische interface, zonder dat je de command line hoeft te gebruiken.  
 Dit maakt het makkelijker om bewerkingen uit te voeren, vooral als je visueel wilt werken.
 
 -   Download en installeer [GitHub Desktop](https://desktop.github.com/).
@@ -146,7 +155,10 @@ Dit maakt het makkelijker om bewerkingen uit te voeren, vooral als je visueel wi
 
 ### 7. Visual Studio Code installeren
 
+<br>
 <img src="https://cdn.iconscout.com/icon/free/png-512/visual-studio-code-1868944-1583105.png" width="100">
+<br>
+<br>
 
 **Visual Studio Code (VS Code)** is een populaire en lichtgewicht code-editor van Microsoft, ideaal voor webontwikkeling.  
 Het ondersteunt HTML, CSS, JavaScript, PHP, Git-integratie en nog veel meer via extensies.
@@ -168,9 +180,12 @@ Het ondersteunt HTML, CSS, JavaScript, PHP, Git-integratie en nog veel meer via 
 
 ### 8. Repository clonen
 
+<br>
 <img src= "https://cdn1.iconfinder.com/data/icons/system-basic-vol-9/20/copy-clone-file-512.png" width="100">
+<br>
+<br>
 
-Een repository (repo) clonen maakt het mogelijk om (de laatste versie van) een bestaand project lokaal te gebruiken.
+Een repo clonen maakt het mogelijk om (de laatste versie van) een bestaand project lokaal te gebruiken.
 
 Clonen van de CodeCrashers-repo:
 
@@ -187,7 +202,10 @@ Clonen van de CodeCrashers-repo:
 
 ### 9. Repository aanmaken via GitHub Desktop
 
+<br>
 <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" width="100">
+<br>
+<br>
 
 -   Open GitHub Desktop.
 -   Kies **File > New repository**.
@@ -203,7 +221,10 @@ Clonen van de CodeCrashers-repo:
 
 ### 10. Opleidingscoaches toegang geven tot je repo
 
+<br>
 <img src="https://cdn-icons-png.flaticon.com/512/1250/1250689.png" width="100">
+<br>
+<br>
 
 Om je opdrachten na te laten kijken door de opleidingscoaches moet je hen toegang geven tot de repo.
 
@@ -222,7 +243,12 @@ Om je opdrachten na te laten kijken door de opleidingscoaches moet je hen toegan
 
 ### 11. Lokale bestanden openen op localhost vanuit VS Code
 
+<br>
 <img src="https://cdn-icons-png.flaticon.com/512/545/545682.png" width="100">
+<br>
+<br>
+
+Om je site te testen in een realistischere omgeving (localhost) gebruik je de extension **Live Server** met live herlaadfunctie. Dit is noodzakelijk als je met JavaScript en API’s werkt, en gewoon handig voor HTML/CSS.
 
 -   Installeer Live Server
 -   Open bestand met sneltoets: `Alt+L` dan `Alt+O`
@@ -233,7 +259,10 @@ Om je opdrachten na te laten kijken door de opleidingscoaches moet je hen toegan
 
 ### 12. Repository-acties via GitHub Desktop of VS Code
 
+<br>
 <img src="https://cdn-icons-png.flaticon.com/512/32/32195.png" width="100">
+<br>
+<br>
 
 Wanneer je aan je project werkt, pas je regelmatig bestanden aan. Om die wijzigingen op te slaan en bij te houden gebruik je een aantal acties.
 
@@ -246,6 +275,14 @@ Wanneer je aan je project werkt, pas je regelmatig bestanden aan. Om die wijzigi
 Deze acties zorgen ervoor dat je veilig en gestructureerd kunt werken aan je project — je raakt niets kwijt, je kunt altijd terug in de tijd, en samenwerken wordt overzichtelijk en betrouwbaar.
 
 **Via Terminal**
+- Naviugeer naar repo-map: ```cd pad/naar/jouw/repository```
+- Bekijk eventueel gewijzigde bestanden: ```git status```
+- Voeg bestanden toe om te committen: ```git add .```
+- Maak de commit met een bericht: ```git commmit -m "plaats hier je bericht"```
+- Push de commit naar GItHub: ```git push origin main```
+
+
+
 
 **Via GitHub Desktop:**
 
@@ -271,6 +308,7 @@ Deze acties zorgen ervoor dat je veilig en gestructureerd kunt werken aan je pro
 <img src="test.png" width="100">
 <br>
 <br>
+
 Zo weet je zeker dat alles goed is ingesteld en voorkom je frustratie later.
 
 -   Open een browser en ga naar `http://localhost/`.
@@ -301,31 +339,36 @@ Zo weet je zeker dat alles goed is ingesteld en voorkom je frustratie later.
 -   **Automatisch opslaan**
     -   Zet ‘Auto Save’ aan in VS Code (Bestand > Automatisch opslaan), zodat je wijzigingen niet verloren gaan.
 
--   **Extensions**
+-   **Drie belangrijke Extensions**
+    - Prettier - Code formatter
+Zorgt automatisch voor nette, consistente opmaak van je code, volgens standaard stijlgidsen.
+
+    - Live Server
+Start een lokale server waarmee je je HTML-pagina's direct in de browser kunt bekijken. Veranderingen in je code worden meteen zichtbaar.
+
+    - ESLint
+Controleert je JavaScript-code op fouten en waarschuwt voor slecht leesbare of foutgevoelige patronen. Helpt om schone en consistente code te schrijven.
 
 
 **AI-tools**
 
-We kunnen je uiteraard niet tegenhouden met om AI-tools in te zetten. Dat zal ook steeds een belangrijkere tool worden in webdevelopment. Maar waarom zijn we dan terughoudend? Het programma is bedoeld om webdevelopment te LEREN. Als je AI-tools gaat in zetten om snel opdracht met succes af te ronden dan wil dit nog niet zeggen dat je er iets van hebt opgestoken! Dus als je AI-tool inzet, zet deze dan zo in dat je er juist van leert! Prompt niet: Geef de juiste code 
-Prompt: Leer me hoe ik de juiste code kan genereren voor deze opdracht. 
+We kunnen je natuurlijk niet tegenhouden om AI-tools te gebruiken. Sterker nog: AI zal een steeds belangrijkere rol spelen in webdevelopment. Maar waarom zijn we dan toch terughoudend?
 
-- **ChatGPT**
+Het doel van dit programma is dat je webdevelopment écht leert. Als je AI-tools inzet om een opdracht vooral maar zo snel mogelijk succesvol af te ronden, betekent dat nog niet dat je het onderliggende concept hebt begrepen of zelf zou kunnen toepassen.
 
-
-
-
-
+Daarom: gebruik AI om te leren, niet om te ontwijken.
+- Stel niet de vraag: “Geef me de juiste code.”
+- Maar liever: "Leer me de juiste code schrijven voor deze opdracht?” of “Leg me stap voor stap uit hoe ik dit kan oplossen.”
 
 **Referenties**
-Hierbij 4 belangrijke en betrouwbare bronnen voor webdevelopment:
+Hierbij 3 belangrijke en betrouwbare bronnen voor webdevelopment:
 - [W3Schools](https://www.w3schools.com/)  
    *Praktische uitleg, voorbeelden en tutorials voor beginners tot gevorderden.*  
 - [MDN Web Docs](https://developer.mozilla.org/)  
     *Uitgebreide documentatie en tutorials over webtechnologieën zoals HTML, CSS, JavaScript en meer.*  
 - [Stack Overflow](https://stackoverflow.com/)  
     *Community voor het stellen van vragen en het vinden van antwoorden over programmeren.*
-- [CodePen](https://codepen.io/)
-    *
+
 
 
 
@@ -340,7 +383,7 @@ Hierbij 4 belangrijke en betrouwbare bronnen voor webdevelopment:
 <br>
 
 
-##### XAMPP
+##### #XAMPP
 De letters van de naam XAMPP betekenen het volgende:  
 _X = cross-platform:_ dit betekent dat XAMPP op verschillende besturingssystemen werkt.  
 _A = Apache:_ hiermee draai je de lokale webserver.
